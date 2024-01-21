@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+h2{
+    font-size: 1.5em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.navbar .logo a{
+    
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+    
+}
+header{
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+.navbar{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .hsp{
+    display: flex;
+    align-items: center;
+
+}
+header a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    height: 100%;
+}
+.navbar .logo a {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.navbar .all-links li {
+    position: relative;
+    list-style: none;
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: disc;
+}
+.homepage {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.homepage .content {
+     display: flex; 
+     height: 85%; 
+     z-index: 3; 
+     align-items: center; 
+     justify-content: center;
+     flex-direction: column;
+}
+.homepage .content .text1 {
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.homepage .content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content a {
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #fff;
+    transition: 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+section h2 {
+    font-size: 2rem;
+}
+section > p {
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+section .ulcards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+section .ulcards .card {
+    background: #fff;
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+}
+.service .card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0;
+}
+section.aboutus {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.aboutus .cinfo{
+    padding: 0 10px;
+}
+.aboutus .team {
+    text-align: left;
+    width: 100%;
+}
+
+.contactus .rows {
+    margin: 60px 0 90px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactus .rows .col {
+    padding: 0 10px;
+    width: calc(100% / 2 - 50px);
+}
+.contactus .col p {
+    margin-bottom: 10px;
+}
+/*
+.contactus .col p i {
+    color: #7a7a7a;
+    margin-right: 10px;
+}
+.mass {
+    font-weight: 900;
+}*/
+.contactus form input {
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+}
+.contactus form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #333;
+    transition: 0.2s ease;
+}
+.contactus form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+    outline: none;
+    resize: vertical;
+    border: 1px solid #bfbfbf;
+}
